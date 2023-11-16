@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- le titre de page -->
+    <title>projet</title>
+    <!-- icone onglet -->
+    <link rel="shortcut icon" href="logo-html.png.png"
+  </head>
+
+  <body>
+    <header>
+      <h1>titre projet</h1>
+      <p>
+        texte du projet. <em>texte italique</em> <strong>texte gras</strong>
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
+        itaque repellendus a molestiae ipsum ducimus. Numquam veritatis
+        exercitationem atque ullam.
+      </p>
+    </header>
+    <section>
+      <div>
+        <h2>image titre</h2>
+        <!-- integration image -->
+        <img src="téléchargement.jpg" height="200" alt="image ordinateur" />
+        <h3>listes</h3>
+        <!-- integration listes -->
+        <ul>
+          <li>unordored list</li>
+          <li>unordored list</li>
+          <li>unordored list</li>
+        </ul>
+        <ol>
+          <li>ordoned list</li>
+          <li>ordoned list</li>
+          <li>ordoned list</li>
+        </ol>
+        <div>
+          <h4>tableaux</h4>
+          <!-- integration tableaux -->
+          <table border="1" width="50%">
+            <!-- legende -->
+            <caption>
+              populations d'europe
+            </caption>
+            <!-- en tete -->
+            <thead>
+              <tr>
+                <th>pays</th>
+                <th>population</th>
+              </tr>
+            </thead>
+            <!-- corps du tableau -->
+            <tbody>
+              <tr>
+                <td>france</td>
+                <td>65M</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h5><span>&#9758;</span>liens</h5>
+        <!-- integration liens -->
+        <a href="https://htmlcheatsheet.com/" target="_blank"
+          >html cheatsheet</a
+        >
+        <br />
+        <a
+          href="https://www.toptal.com/designers/htmlarrows/symbols/"
+          target="_blank"
+          >icones en html</a
+        >
+      </div>
+      <div>
+        <!-- integration video -->
+        <h6>video</h6>
+        <video src="video.mp4" height="200" autoplay loop muted></video>
+      </div>
+      <section>
+        <br>
+      </section>
+      <h2>formulaire</h2>
+      <!-- integration formulaire -->
+      <form action="/action.php" method="post">
+       <label for="name">nom </label> <input id="name" placeholder="entrez votre nom">
+       <br>
+       <label for="age">age</label><input type="number" min="0" max="99" step="1">
+       <br>
+       <!-- input select -->
+       <label for="gender">genre</label>
+       <select id="gender">
+<option value="homme">homme</option>
+<option value="femme">femme</option>
+<option selected value="femme">femme</option>
+</select><br>
+<!-- input radio -->
+<div>
+    <input type="radio" name="type" checked id="human">
+    <label for="human">humain</label>
+    <input type="radio" name="type" id="dog">
+    <label for="human">chien</label>
+</div>
+<!-- integration zone de texte -->
+<textarea  cols="30" rows="10" placeholder="entrez votre demande ici"></textarea><br>
+<!-- input check box -->
+<label><input type="checkbox">accepter les CGV</label><br>
+
+<!-- integration bouton envoyer -->
+<input type="submit" value="valider">
+      </form>
+    </section>
+    <br>
+    <!-- envoie mail -->
+    <footer>
+        <a href="mailto:vincdubois14@gmail.com">écrivez moi</a>
+        <br>
+        <!-- téléchargement fichiers -->
+        <a href="notice.txt" download="nom-du-ficher">téléchargez la notice</a>
+
+    </footer>
+
+  </body>
+</html>
